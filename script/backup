@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Make sure we're in the project root.
+cd $(dirname "$0")/..
+
+DATE=`date +%d%m%y%H%M%S`
+echo `tar cvfj ./assets/backup/$DATE.tar.bz2 * --exclude assets/backup | sha1sum`

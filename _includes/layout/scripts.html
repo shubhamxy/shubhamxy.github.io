@@ -1,0 +1,38 @@
+<!-- JS -->   
+<noscript ><h3 style="padding: 2rem 30% 0 30% !important; width: 100% !important">It seems like you have disabled javascript. Make sure to turn it on for full experience.</h3></noscript>
+<script type="text/javascript" async>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+</script>
+{% if site.google-analytics %}
+<script type="text/javascript" async>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ site.google-analytics }}', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+{% endif %}
+<script type="text/javascript" async>
+(function(doc) {
+  'use strict';
+  document.addEventListener('DOMContentLoaded', function () {
+    var right = document.querySelector('#right'),
+      headers =  [].slice.call(right.querySelectorAll('h1, h2, h3, h4, h5, h6'));
+    for(var header of headers) {
+      var text = header.innerHTML.split(' ');
+      text[0] = '<strong>' + text[0] + '</strong>';
+      header.innerHTML = text.join(' ');
+    }
+  });
+})(document);
+</script>
+
+<script src="{{ site.baseurl }}/assets/js/quotes.js" type="text/javascript" async></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

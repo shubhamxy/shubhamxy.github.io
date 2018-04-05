@@ -1,0 +1,10 @@
+- title: Awesome sample
+  ver: last updated ( feb 2017 )
+  desc:  Nice things to say 
+  url: "#"
+  image: "assets/images/backgrounds/about.jpg"
+  inprogress: true
+- title: Sample test
+  ver: last updated ( feb 2017 )
+  desc: Awesome! i'd say
+  url: "#"

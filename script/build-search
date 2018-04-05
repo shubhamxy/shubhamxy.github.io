@@ -1,0 +1,10 @@
+#!/bin/bash
+# script to build search functionality
+
+# Make sure we're in the project root.
+cd $(dirname "$0")/..
+# bundle update
+# cp search template after update to make sure the search works
+yes | cp -rf assets/search.html search.html
+bundle exec jekyll build
+yes | cp -rf _site/search.html search.html

@@ -1,0 +1,13 @@
+<ul class="social-links-beta">
+  <li><a class="blog" href="/" ><strong>bl</strong>og</a></li>
+  {% if site.email %}
+  <li><a class="mail"href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><strong>ma</strong>il</a></li>
+  {% endif %} {% if site.github %}
+  <li><a  class="git" href="http://github.com/{{ site.github }}" target="_blank" rel="noopener noreferrer"><strong>git</strong>hub</a></li>
+  {% endif %} {% if site.twitter %}
+  <li><a class="twitter" href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><strong>twit</strong></strong>ter</a></li>
+  {% endif %} {% if site.messenger %}
+  <li><a  class="msngr" href="http://m.me/{{ site.messenger }}" target="_blank" rel="noopener noreferrer"><strong>mess</strong>enger</a></li>
+  {% endif %}
+</ul>
+  

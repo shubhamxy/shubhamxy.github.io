@@ -1,7 +1,0 @@
-language: ruby
-cache: bundler
-sudo: false
-rvm: 2.3.1
-
-install: script/dep
-script: script/cibuild

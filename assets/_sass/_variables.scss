@@ -1,0 +1,73 @@
+$primary: #6f8ca9;
+$secondary: transparent;
+$theme: #FB592D;
+$white: #EFEFEF;
+$black: #060B10;
+$dark: #000105;
+$grey: #E2E2E2;
+$overlay: #01070D;
+$red: #ee5f5b;
+$blue: #19b5fe;
+$yellow: #F8B106;
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url('/assets/fonts/SourceSansPro-Light.otf') format("opentype");
+}
+@font-face {
+    font-family: "Source Code Pro for Powerline";
+    src: url('/assets/fonts/source.otf') format("opentype");
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+$ui-font:'Source Sans Pro',
+sans-serif;
+$base-font:'Lato',
+serif;
+$code-font: 'Source Code Pro for Powerline',
+monospace;
+
+@mixin clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    //display: table;
+    content: '';
+    line-height: 0;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin projects-icon-part {
+  border: 2px solid $grey;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 15px;
+  width: 15px;
+}
+
+@mixin posts-icon-part ($index) {
+  background: $white;
+  border: 2px solid $grey;
+  content: '';
+  height: 25px;
+  position: absolute;
+  right: calc(#{$index} * 4px);
+  top: calc(#{$index} * 4px);
+  width: 20px;
+}
+
+
+@mixin vendor-prefix ($property,
+$value) {
+  -webkit-#{$property}: #{$value};
+  -moz-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  -o-#{$property}: #{$value};
+  #{$property}: #{$value};
+}

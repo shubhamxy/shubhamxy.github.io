@@ -1,0 +1,172 @@
+#downloads {
+  .top-content {
+    color: rgba($dark, 0.5);
+
+      .logo {
+      left: 2rem;
+      position: absolute;
+      opacity: 0.8;
+      top: 2rem;
+
+      img {
+        height: auto;
+        width: 10rem;
+      }
+
+      &:after {
+        display: none;
+      }
+    }
+
+    h3 {
+      margin-top: 14rem;
+    }
+
+    h4 {
+      padding-left: 1rem;
+
+      i {
+        padding-right: 1rem;
+      }
+    }
+
+    legend {
+      display: block;
+      margin-top: 1rem;
+      text-align: center;
+      width: 100%;
+
+      span,
+      ul,
+      li {
+        display: inline-block;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      li {
+        height: 1rem;
+        opacity: 0.7;
+        width: 1rem;
+      }
+
+      span:first-child {
+        padding-right: 1rem;
+      }
+
+      span:last-child {
+        padding-left: 1rem;
+      }
+    }
+  }
+.top-section-title {
+
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 69px auto;
+  margin-left: 0rem;
+  position: absolute;
+  padding: 15% 0 0 0;
+  color: rgba($dark, 0.5);
+  word-wrap: break-word;
+
+  em {
+    // font-style: italic;
+  }
+
+  span {
+    font-size: 2rem;
+  }
+}
+  .base-content {
+    width: 100%;
+
+    article {
+      background: #eee;
+      padding: 10px 0 25px 0;
+      border: solid 1px $primary;
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-style: italic;
+      margin: 3rem 0;
+    }
+
+    section {
+      background: transparent;
+      display: block;
+      margin-top: 0.1rem;
+      overflow: hidden;
+      padding: 1rem;
+      position: relative;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:after {
+        content: '';
+        padding: 1.5rem; // arrow size
+        position: absolute;
+        border: solid transparent;
+        border-width: 0 0 1rem 1rem;
+        box-shadow: 1px -1px 0 1px $grey inset;
+        right: 2rem;
+        top: 2rem;
+        transform: rotate(225deg);
+        transition: 0.2s;
+
+        &:hover {
+          box-shadow: 2px -2px 0 2px $primary inset;
+        }
+      }
+
+      &:hover {
+
+        h2,
+        h3 {
+          color: $primary;
+        }
+
+        &:after {
+          box-shadow: 1px -1px 0 1px $primary inset;
+        }
+      }
+
+      a {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        margin-top: 0;
+
+        strong {
+          font-weight: 400;
+        }
+      }
+
+      h3 {
+        margin: 0;
+        padding: 0 6rem 0 1rem;
+
+        strong {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

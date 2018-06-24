@@ -1,0 +1,25 @@
+---
+layout: base
+id: post
+---
+{% capture date %}
+{% assign d = page.date | date: "%-d"  %}
+{{ page.date | date: "%B" }}
+{% case d %}
+  {% when '1' or '21' or '31' %}{{ d }}st
+  {% when '2' or '22' %}{{ d }}nd
+  {% when '3' or '23' %}{{ d }}rd
+  {% else %}{{ d }}th
+  {% endcase %},
+{{ page.date | date: "%Y" }}
+{% endcapture %}
+<article>
+  <time>{{ date }}</time>
+<div class="l-break"></div>
+  {{ content }}
+<br>
+</article>
+{% include pager.html %}
+{% include share.html %}
+{% include comment.html %}
+

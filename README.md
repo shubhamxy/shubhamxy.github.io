@@ -1,5 +1,5 @@
 ## Blog
-- [shubhamjain.in](https://www.shubhamjain.in)
+
 
 #### Ver = 1.0.1
 - Improved layout

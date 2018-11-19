@@ -1,10 +1,73 @@
-- title: Awesome sample
-  ver: last updated ( feb 2017 )
-  desc:  Nice things to say 
-  url: "#"
+- title: FaceRecog.
+  ver: last updated ( May 2018 )
+  desc:  facerecognition using viola jones algorithm and analyzing data. 
+  url: "https://github.com/mzeroes/facerecog"
   image: "assets/images/backgrounds/about.jpg"
-  inprogress: true
-- title: Sample test
+  inprogress: false
+  
+- title:  test
   ver: last updated ( feb 2017 )
   desc: Awesome! i'd say
   url: "#"
+  inprogress: test
+- title: FaceRecog.
+  ver: last updated ( May 2018 )
+  desc:  facerecognition using viola jones algorithm and analyzing data. 
+  url: "https://github.com/mzeroes/facerecog"
+  image: "assets/images/backgrounds/about.jpg"
+  inprogress: false
+  
+- title:  test
+  ver: last updated ( feb 2017 )
+  desc: Awesome! i'd say
+  url: "#"
+  inprogress: false
+- title: FaceRecog.
+  ver: last updated ( May 2018 )
+  desc:  facerecognition using viola jones algorithm and analyzing data. 
+  url: "https://github.com/mzeroes/facerecog"
+  image: "assets/images/backgrounds/about.jpg"
+  inprogress: false
+  
+- title:  test
+  ver: last updated ( feb 2017 )
+  desc: Awesome! i'd say
+  url: "#"
+  inprogress: false
+- title: FaceRecog.
+  ver: last updated ( May 2018 )
+  desc:  facerecognition using viola jones algorithm and analyzing data. 
+  url: "https://github.com/mzeroes/facerecog"
+  image: "assets/images/backgrounds/about.jpg"
+  inprogress: false
+  
+- title:  test
+  ver: last updated ( feb 2017 )
+  desc: Awesome! i'd say
+  url: "#"
+  inprogress: false
+- title: FaceRecog.
+  ver: last updated ( May 2018 )
+  desc:  facerecognition using viola jones algorithm and analyzing data. 
+  url: "https://github.com/mzeroes/facerecog"
+  image: "assets/images/backgrounds/about.jpg"
+  inprogress: false
+  
+- title:  test
+  ver: last updated ( feb 2017 )
+  desc: Awesome! i'd say
+  url: "#"
+  inprogress: false
+  
+- title: FaceRecog.
+  ver: last updated ( May 2018 )
+  desc:  facerecognition using viola jones algorithm and analyzing data. 
+  url: "https://github.com/mzeroes/facerecog"
+  image: "assets/images/backgrounds/about.jpg"
+  inprogress: false
+  
+- title:  test
+  ver: last updated ( feb 2017 )
+  desc: Awesome! i'd say
+  url: "#"
+  inprogress: false

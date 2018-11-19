@@ -1,26 +1,20 @@
 #projects {
- main{
-    // background: $white !important;
+  .top-child {
+    padding: 0 14% 0 14%;
   }
-  #top{
-    // display: none;
+
+  #headline {
+    margin: 13px 14% 13px 14%;
   }
-  .window{
-    background: $white !important;
-    height: 46px;
+
+  #navmenu {
+    padding: 17px 0 17px calc(14% - 24px) !important;
   }
-.top-child{
-  padding: 0 14% 0 14%;
-}
-#headline{
-  margin: 13px 14% 13px 14%;
-}
-#navmenu{
-   padding: 17px 0 17px calc(14% - 24px) !important;
-}
-.base-content{
-  padding: 3rem 14% 0 14%;
-}
+
+  .base-content {
+    padding: 3rem 14% 0 14%;
+  }
+
   #base {
     top: 0%;
     height: 100%;
@@ -29,11 +23,13 @@
     margin: 0;
     background: $white;
   }
+
   .base-child {
     height: 100vh;
     width: 72vw;
     margin: 0 14% 0 14%;
   }
+
   .base-content {
     padding: 0;
     padding-top: 2rem;
@@ -42,18 +38,17 @@
     width: 100%;
   }
 
-  footer {
-    // display: none;
+
+
+  #quotes {
+    display: none;
   }
 
-  #quotes{
-    display:none;
-  }
   .inactive {
     pointer-events: none;
-    pointer: default;
     background: $dark;
   }
+
   .project-title {
     position: relative;
     display: block;
@@ -61,6 +56,7 @@
     margin: 0 0 6rem 0; // margin: 10% 0 16% 0;
     // padding: 0 18px 0 18px;
     width: 100%; // z-index:0;
+
     h1 {
       width: 2.8rem;
       color: $primary;
@@ -91,6 +87,7 @@
       color: $grey;
       font-size: 1.3rem;
     }
+
     em {
       font-variant: italic;
     }
@@ -100,6 +97,7 @@
 .projects-menu {
   font-size: 0;
   height: 100%;
+
   >li {
     display: inline-block;
     width: calc(100%/3);
@@ -108,17 +106,19 @@
     // border: 5px solid darken($white,10);
     position: relative;
     vertical-align: top;
-    float: left;
     background-size: cover !important;
+
     &:nth-child(8n+1),
     &:nth-child(8n+2) {
       width: 50%;
       height: 70%;
     }
+
     &:nth-child(8n+6) {
       width: calc(100%/3 + 100%/3);
       height: 100%;
     }
+
     a {
 
       border: 30px solid transparent;
@@ -133,6 +133,7 @@
       -ms-transition: background 0.2s linear;
       -o-transition: background 0.2s linear;
       transition: background 0.2s linear;
+
       &:hover:after,
       &:hover:before {
         -webkit-transform: scale(1);
@@ -146,10 +147,12 @@
         -o-transition: all 1s;
         transition: all 1s;
       }
+
       h1 {
         margin: -40%;
         text-align: center;
       }
+
       span {
         position: absolute;
         top: 50%;
@@ -166,15 +169,18 @@
         padding-right: 10px;
         white-space: nowrap;
         text-align: center;
+
         strong {
           color: rgba($white, 0.7);
         }
+
         em {
           font-size: 14px;
           line-height: 33px;
           color: darken($white, 40%);
         }
       }
+
       &:after {
         content: "";
         position: absolute;
@@ -195,6 +201,7 @@
         -o-transition: all 0.5s;
         transition: all 0.5s;
       }
+
       &:before {
         content: "";
         border-right: 2px solid rgba($white, 0.3);

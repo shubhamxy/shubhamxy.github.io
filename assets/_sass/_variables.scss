@@ -3,9 +3,9 @@ $secondary: transparent;
 $theme: #FB592D;
 $white: #EFEFEF;
 $black: #060B10;
-$dark: #000105;
+$dark: #171C1F;
 $grey: #E2E2E2;
-$overlay: #01070D;
+$overlay: #242b2b;
 $red: #ee5f5b;
 $blue: #19b5fe;
 $yellow: #F8B106;
@@ -14,10 +14,12 @@ $yellow: #F8B106;
   font-family: "Source Sans Pro";
   src: url('/assets/fonts/SourceSansPro-Light.otf') format("opentype");
 }
+
 @font-face {
-    font-family: "Source Code Pro for Powerline";
-    src: url('/assets/fonts/source.otf') format("opentype");
+  font-family: "Source Code Pro for Powerline";
+  src: url('/assets/fonts/source.otf') format("opentype");
 }
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
 $ui-font:'Source Sans Pro',

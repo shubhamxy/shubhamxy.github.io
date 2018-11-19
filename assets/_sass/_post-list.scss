@@ -1,10 +1,11 @@
 #post,
 #post-list {
-    hr{
-     border: 0;
+  hr {
+    border: 0;
     border-bottom: solid 1px #BEC8D3;
     margin: 1rem 4px 1rem 4px;
-}
+  }
+
   #top {
 
     .logo {
@@ -62,7 +63,6 @@
 
       .date {
         color: $grey;
-        float: right;
         display: inline-block;
         font-size: 1.3rem;
         padding-top: 1rem;
@@ -73,24 +73,14 @@
         display: inline-block;
         max-width: 75%;
       }
-
       .tags {
-        margin-top: 2rem;
-
         >li {
-          background: darken($white, 8%);
-          color: lighten($black, 28%);
+          background: $grey;
           display: inline-block;
-          font-size: 0.8rem;
-          margin: 0.7rem 0 0.7rem 0;
-          padding: 0.7rem 1rem;
-          line-height: 1.4;
           text-transform: uppercase;
-          &:hover {
-            background-color: darken($white, 18%) !important;
-          }
+          font-size: 1.2rem;
           >a {
-            color: lighten($black, 28%);
+            color: $primary;
           }
         }
       }
@@ -99,19 +89,9 @@
 }
 
 #post-list {
-  .window{
-    // height: vh;
-  }
-  #base ul {
-    padding: 2rem;
-  }
-  article{
-  box-shadow: 10px 10px 5px rgba(88, 110, 117, 0.17);
-  border-radius: 4px;
-  }
-}
 
-#post-list-meta {
-  color: $grey;
-  font-size: 1.8rem;
+  article {
+    box-shadow: 3px 3px 2px rgba(88, 110, 117, 0.17);
+    border-radius: 4px;
+  }
 }

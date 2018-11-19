@@ -1,7 +1,6 @@
----
-sitemap: false
----
-
+--- 
+sitemap: false 
+--- 
 // these variables need to be defined here, as this is the only file that jekyll
 // will process liquid templates for.
 $background-about: '{{ site.baseurl }}/{{ site.background.about }}';
@@ -23,10 +22,7 @@ $background-about: '{{ site.baseurl }}/{{ site.background.about }}';
 @import 'about';
 @import 'post';
 @import 'post-list';
-@import 'downloads';
-
 @import 'tags';
 
 // last for best
 @import 'responsive';
-

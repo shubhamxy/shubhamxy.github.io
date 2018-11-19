@@ -1,12 +1,6 @@
 #about {
-  #quotes{display: none;}
-  .window {
-    background: $white !important;
-    height: 46px;
-  }
-  .header{
-    // display: none;
-  }
+
+
   #top {
     display: none;
     position: absolute;
@@ -35,6 +29,7 @@
     padding: 30rem 0 0 0;
     color: rgba($white, 0.7);
     word-wrap: break-word;
+
     em {
       font-style: italic;
     }
@@ -44,19 +39,22 @@
     }
   }
 
-#base{
-  background: $white;
-  .base-content{
+  #base {
+    background: $white;
+
+    .base-content {
       padding: 3rem 15% 6rem 15%;
 
-  height: auto;
+      height: auto;
+    }
+
+    footer {
+      margin: 0 -13% 0 -13%;
+    }
+  }
 }
-footer{
-    margin: 0 -13% 0 -13%;
-}
-}
-}
-.about-info{
+
+.about-info {
   // padding: 50px 40px 50px 40px;
 
   background: $white;
@@ -67,11 +65,12 @@ footer{
   // 100% {
   //   transform: translateY(0);
   // }
-// }
+  // }
   // animation: up 2s;
-    box-shadow: 4px 4px 5px rgba(88,110,107,0.17);
+  box-shadow: 4px 4px 5px rgba(88, 110, 107, 0.17);
 
 }
+
 .main-info,
 .about-info {
   border-radius: 6px;
@@ -81,6 +80,7 @@ footer{
   width: 100%;
   word-break: break-word;
   line-height: 1.4;
+
   h1,
   h2 {
     font-size: 3rem;
@@ -112,8 +112,9 @@ footer{
     padding-top: 2.5rem;
   }
 }
-#mydata{
-  div{
+
+#mydata {
+  div {
     color: #1F323D;
     font-size: 2rem;
     line-height: 2.6rem;
@@ -122,20 +123,23 @@ footer{
     list-style: none;
     width: 100%;
     display: flex;
-    ul{
-    list-style: none;
-    text-transform: uppercase;
-    display: table-cell;
-    min-width: auto;
-    width: 100%;
+
+    ul {
+      list-style: none;
+      text-transform: uppercase;
+      display: table-cell;
+      min-width: auto;
+      width: 100%;
     }
-    li{
+
+    li {
       list-style: none;
       font-size: 1.2rem;
       text-transform: uppercase;
     }
   }
 }
+
 .main-info {
   font-family: $ui-font;
   border: 2px $dark solid;
@@ -145,23 +149,29 @@ footer{
   max-width: 100%;
   z-index: 1;
   height: 100%;
+
   p {
     color: $primary;
     line-height: 2.4rem;
     margin: -3.5rem 0;
     padding-top: 0;
+
     &:first-of-type {
       padding-top: 3.5rem;
     }
   }
+
   h1 {
     font-size: 3.4rem;
     font-family: $ui-font;
     letter-spacing: 0.7rem;
     color: #3C4C55;
     padding-top: 2rem;
+
     // text-transform: uppercase;
-    &:after{display: none;}
+    &:after {
+      display: none;
+    }
   }
 
   h2 {
@@ -172,7 +182,8 @@ footer{
     margin: 3rem 0;
     padding-top: 2.5rem;
   }
-    h3 {
+
+  h3 {
     font-size: 1.8rem;
     font-family: $ui-font;
     letter-spacing: 0.5rem;
@@ -223,32 +234,76 @@ ul.social-links-beta {
       display: block;
       padding: 0rem 0.4rem 0.7rem 0.8rem;
     }
-    .mail:hover{
-        strong{color: #3C4C55}
-        color: $red;
-      }
-    .mail{strong{color: $red}}
 
-    .git:hover{
-      strong{color: #3C4C55}
-        color: $dark;
+    .mail:hover {
+      strong {
+        color: #3C4C55
       }
-    .git{strong{color: $dark}}
-    .twitter:hover{
-      strong{color: #3C4C55}
-        color: $blue;
+
+      color: $red;
+    }
+
+    .mail {
+      strong {
+        color: $red
       }
-    .twitter{strong{color: $blue}}
-    .msngr:hover{
-      strong{ color:#3C4C55 }
-        color: rgb(0, 119, 181);
+    }
+
+    .git:hover {
+      strong {
+        color: #3C4C55
       }
-    .msngr{ strong{color:rgb(0, 119, 181)} }
-    .blog:hover{
-      strong{color: #3C4C55}
-        color: #FF7508;
+
+      color: $dark;
+    }
+
+    .git {
+      strong {
+        color: $dark
       }
-    .blog{strong{color: #FF7508}}
+    }
+
+    .twitter:hover {
+      strong {
+        color: #3C4C55
+      }
+
+      color: $blue;
+    }
+
+    .twitter {
+      strong {
+        color: $blue
+      }
+    }
+
+    .msngr:hover {
+      strong {
+        color: #3C4C55
+      }
+
+      color: rgb(0, 119, 181);
+    }
+
+    .msngr {
+      strong {
+        color: rgb(0, 119, 181)
+      }
+    }
+
+    .blog:hover {
+      strong {
+        color: #3C4C55
+      }
+
+      color: #FF7508;
+    }
+
+    .blog {
+      strong {
+        color: #FF7508
+      }
+    }
   }
 
 }
@@ -418,9 +473,9 @@ ul.social-links-beta {
 // }
 
 hr {
-    border: 0;
-    border-bottom: solid 1px #B3BBD4;
-    margin: 1rem 4px 1rem 4px;
+  border: 0;
+  border-bottom: solid 1px #B3BBD4;
+  margin: 1rem 4px 1rem 4px;
 }
 
 // pre {

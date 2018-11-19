@@ -1,13 +1,10 @@
 #top .tags {
-  margin-top: 1rem;
 
   >li {
     background: transparent;
-    color: lighten($black, 28%);
+    color: $dark;
     display: inline-block;
     font-size: 0.8rem;
-    margin: 0.4rem 0.1rem 0 0;
-    padding: 0.6rem;
     text-transform: uppercase;
 
     &:hover {
@@ -15,19 +12,24 @@
     }
 
     >a {
-      color: $white;
+      color: $dark;
     }
   }
 }
 
 #post {
-// #navmenu{display:none}
-// #sidemenu{display:block}
+
+  // #navmenu{display:none}
+  // #sidemenu{display:block}
+  .window {
+    height: 60vh;
+  }
+
   article {
     border: 1px $grey solid;
     padding-top: 3rem;
-    margin-top: calc(-15vh ) !important;
-    box-shadow: 3px 2px 5px rgba(88,110,117,0.17);
+    margin-top: calc(-15vh) !important;
+    box-shadow: 3px 2px 5px rgba(88, 110, 117, 0.17);
     background-color: #EAEAEA;
   }
 
@@ -81,7 +83,7 @@ article {
   position: relative;
   background: #EAEAEA;
   padding: 3rem 6rem 3rem 6rem;
-    -ms-word-wrap: break-word;
+  -ms-word-wrap: break-word;
   word-wrap: break-word;
   // letter-spacing: 0.2rem;
   border: 2px solid #E2E2E2;
@@ -107,7 +109,7 @@ article {
   h4,
   h5,
   h6 {
-    color: lighten($overlay,10);
+    color: lighten($overlay, 10);
     letter-spacing: 0.2rem;
 
     strong {
@@ -119,13 +121,15 @@ article {
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 24px;
-    color:  #6F6F6F !important;
+    color: #6F6F6F !important;
     margin-bottom: 1.3em;
     letter-spacing: 1px;
   }
-  code{
+
+  code {
     font-size: 10px;
   }
+
   small {
     color: darken($white, 40);
     font-size: 1.4rem;
@@ -143,7 +147,7 @@ article {
     padding-left: 5rem;
 
     >li {
-      color: #303030  ;
+      color: #303030;
       font-size: 1.6rem;
       position: relative;
       margin-bottom: 0.8rem;
@@ -163,8 +167,9 @@ article {
   position: absolute;
   width: 100%;
   padding-top: 4rem;
+
   .section-title {
-        letter-spacing: 0.4rem;
+    letter-spacing: 0.4rem;
 
     position: relative;
     left: auto;
@@ -181,9 +186,9 @@ article {
 
   .tags>li {
     background: none;
-    border: 0.1rem solid rgba($white, 0.4);
-    color: $white;
-    font-size: 1rem;
+    border: 0.1rem solid $dark;
+    color: $dark;
+    font-size: 0.8rem;
     cursor: pointer;
   }
 
@@ -209,6 +214,7 @@ article {
 
     a {
       color: lighten($dark, 20);
+
       &:hover {
         color: $primary;
       }

@@ -16,10 +16,9 @@ assets:
 
 # Left Block Images
 background:
-  about: assets/images/backgrounds/about.jpg
 
 # Jekyll
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year-:month-:day/:title
 future: true
 markdown: kramdown
 highlighter: rouge
@@ -40,7 +39,7 @@ google-analytics: UA-84199733-1
 # Disqus
 disqus_shortname: "shubhamjain-in"
 comments: true
-
+share: false
 # Social Links
 email: s.shubjain@gmail.com
 linkedin: shubm
@@ -48,7 +47,7 @@ linkedin: shubm
 github: "mzeroes"
 # bitbucket: ishubham
 # stackoverflow:  6476326/shubham-jain
-twitter: "mzeroes"
+# twitter: "mzeroes"
 messenger: always.awesom
 
 #Tips' links

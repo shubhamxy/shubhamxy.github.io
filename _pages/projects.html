@@ -23,8 +23,7 @@ box-shadow: 4px 4px 5px rgba(88, 110, 107, 0.17);
 ">
         <a href="{{ item.url }}" {% unless item.inprogress %} {% endunless %} target="_blank" rel="nofollow external">
           <span>
-            {{ item.title }} {% unless item.inprogress%} <br /><em>in progress</em>
-            {% endunless %}
+            {{ item.title }} {% unless item.inprogress%} <br />{% endunless %}
           </span>
         </a>
       </div>

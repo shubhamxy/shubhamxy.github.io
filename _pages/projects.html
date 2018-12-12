@@ -7,35 +7,23 @@ toptheme:
 theme:
 ---
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;  ">
-  <ul style="list-style: none;">
+<div>
+  <ul class="project-list">
     {% for item in site.data.projects %} {% capture image %}{{
-      item.image
+    item.image
     }}{% endcapture %} {% unless image contains 'http://' or image contains
     'https://' %} {% capture image %}{{
-      site.url
+    site.url
     }}/{{
-      image
+    image
     }}{% endcapture %} {% endunless %}
-    <li style="margin: 20px">
-<div style="background: url({{item.image}}) center; border: 1px solid #ccc; padding: 200px 300px;   box-shadow: 4px 4px 5px rgba(88, 110, 107, 0.17);
+    <li class="project-list-item">
+      <div class="project-list-content" style="background: url({{item.image}}) center; border: 1px solid #ccc;
+box-shadow: 4px 4px 5px rgba(88, 110, 107, 0.17);
 ">
-        <a
-          href="{{ item.url }}"
-          {%
-          unless
-          item.inprogress
-          %}
-          {%
-          endunless
-          %}
-          target="_blank"
-          rel="nofollow external"
-        >
+        <a href="{{ item.url }}" {% unless item.inprogress %} {% endunless %} target="_blank" rel="nofollow external">
           <span>
-            {{ item.title }} {% unless item.inprogress%} <br /><em
-              >in progress</em
-            >
+            {{ item.title }} {% unless item.inprogress%} <br /><em>in progress</em>
             {% endunless %}
           </span>
         </a>

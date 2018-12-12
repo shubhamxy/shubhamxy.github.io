@@ -14,10 +14,9 @@ $menuItems: 7;
 
   a {
     color: rgba($dark, 0.6);
-    text-transform: uppercase;
     font-family: $ui-font;
     font-weight: 400;
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.2rem;
     margin: 0 24px 0 24px;
   }
 
@@ -28,12 +27,10 @@ $menuItems: 7;
   .social-links {
     a {
       color: rgba($dark, 0.6);
-      text-transform: uppercase;
       font-family: $ui-font;
       font-weight: 400;
       font-size: 16px;
-
-      letter-spacing: 0.6rem;
+      letter-spacing: 0.2rem;
       margin: 0 16px 0 16px;
     }
 

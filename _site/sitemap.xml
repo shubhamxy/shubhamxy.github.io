@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https:/mzeroes.github.io/2018-05-22/markup-text-readability</loc>
+<loc>http://localhost:4000/2018-05-22/markup-text-readability</loc>
 <lastmod>2018-05-22T00:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>https:/mzeroes.github.io/404</loc>
+<loc>http://localhost:4000/404</loc>
 </url>
 <url>
-<loc>https:/mzeroes.github.io/note/gpg</loc>
+<loc>http://localhost:4000/note/gpg</loc>
 </url>
 <url>
-<loc>https:/mzeroes.github.io/index</loc>
+<loc>http://localhost:4000/index</loc>
 </url>
 <url>
-<loc>https:/mzeroes.github.io/projects</loc>
+<loc>http://localhost:4000/projects</loc>
 </url>
 <url>
-<loc>https:/mzeroes.github.io/search</loc>
+<loc>http://localhost:4000/tags</loc>
 </url>
 <url>
-<loc>https:/mzeroes.github.io/tags</loc>
+<loc>http://localhost:4000/note/uc</loc>
 </url>
 <url>
-<loc>https:/mzeroes.github.io/note/uc</loc>
+<loc>http://localhost:4000/search.html</loc>
+<lastmod>2018-11-19T07:56:26+05:30</lastmod>
 </url>
 </urlset>

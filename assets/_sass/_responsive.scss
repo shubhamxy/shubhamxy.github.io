@@ -133,44 +133,5 @@
     }
   }
 
-  #projects {
 
-    .top-child {
-      padding: 0;
-    }
-
-    #headline {
-      margin: 13px 0% 13px 3%;
-    }
-
-    #navmenu {
-      padding: 17px 0 17px calc(3% - 24px) !important;
-    }
-
-    .base-child {
-      padding: 0rem 0% 0 0%;
-      margin: 0 0% 0 0%;
-
-    }
-
-    .base-content {
-      padding: 0rem 0% 0 0%;
-    }
-
-    .projects-menu {
-      font-size: 0;
-      height: 100%;
-
-      >li {
-        display: inline-block;
-        background-size: cover !important;
-        height: 100%;
-
-        &:nth-child(n) {
-          width: 100vw;
-
-        }
-      }
-    }
-  }
 }

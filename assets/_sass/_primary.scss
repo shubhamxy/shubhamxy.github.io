@@ -14,8 +14,11 @@ $menuItems: 7;
     font-weight: 400;
     letter-spacing: 0.2rem;
     margin: 0 24px 0 24px;
+    
   }
-
+  a:first-child{
+    margin-left: 0; 
+  }
   a:hover {
     color: $dark;
   }

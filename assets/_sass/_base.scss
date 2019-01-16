@@ -10,17 +10,15 @@
 
  html,
  body {
-   display: table-cell;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
    background: $white;
    color: $overlay;
    font-family: $ui-font;
-   font-size: 10px; // min-height: 100%;
+   font-size: 10px;
    line-height: 1.4;
-   overflow-y: auto;
    letter-spacing: 3px;
-   max-width: 100%;
-   overflow-x: hidden;
-   //display: table-cell;
  }
 
  ::selection {
@@ -238,133 +236,32 @@
  }
 
  main {
-   // height: 100vh;
-   position: relative;
    font-family: $base-font;
-   width: 100vw;
  }
-
- canvas {
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-   z-index: -1;
+ .navmenu-container{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap-reverse;
+   padding-bottom: 2rem;
  }
-
- footer {
-   height: 46px;
-   padding: 42px 15% 0px 15% !important;
-   margin: 0 -16% 0 -16%;
-
-   color: darken($primary, 20);
-   font-family: $code-font;
-   font-size: 1.2rem;
-   text-align: center;
-   bottom: 0;
-
-   p {
-     margin-top: 0;
-     margin-bottom: 0rem;
-
-   }
-
-   @include vendor-prefix(user-select, none);
-
-   h4 {
-     font-family: $code-font;
-   }
+ .header{
+   padding: 2rem 15% 0 15%;
  }
-
  #top {
-   // float: left;
-   position: relative;
-   display: block;
-   height: 100%;
-   width: 100vw; // z-index: 2 !important;
- }
-
- .mini-btn {
-   position: absolute;
-   top: 0;
-   z-index: 20;
-   display: block;
-   border: 1px solid $grey;
-   padding: 1rem;
-   cursor: pointer;
-
-   h3 {
-     cursor: pointer;
-     color: $grey;
-     font-size: 16px;
-   }
- }
-
- .top-child {
-   margin-top: 2rem;
-   position: absolute !important; // top: 15%;
-   // height: 70%;
-   height: 100%;
-   width: 100%;
-   background: none;
    padding: 0 15% 0 15%;
-   margin: 0 auto; //margin: 6% 0 6% 3%;
-   //z-index: 3;
-   color: rgba($dark, 0.5);
-
  }
-
- .top-content {
-   color: rgba($dark, 0.5);
-
-   position: relative;
-   font-family: $base-font;
-   // margin: 0rem auto; // padding: 2rem 3rem 2rem 3rem;
-   //text-align: middle;
-   height: 100%;
-   width: 100%; // z-index: 1;
- }
-
- .top-section-title {
-
-   font-size: 5rem;
-   font-weight: 300;
-   margin: 69px auto;
-   margin-left: 0rem;
-   position: absolute;
-   padding: 15% 0 0 0;
-   color: rgba($dark, 0.5);
-   word-wrap: break-word;
-
-   span {
-     font-size: 2rem;
-   }
- }
-
  #base {
-   background: $white;
-   box-sizing: border-box;
-   display: inline-block;
-   // font-family:"Josefin Sans", sans-serif;
-   font-size: 10px;
-   line-height: 12px;
-   position: relative;
-   text-size-adjust: 100%;
+   padding: 0 15% 0 15%;
+   min-height: 60vh;
  }
-
- .base-child {
-   position: relative; //top: 9%;
-   //left: 3rem;
-   height: auto;
-   width: 100vw;
- }
-
- .base-content {
-   position: relative;
-   font-family: $base-font;
-   margin: 0 auto;
-   padding: 3rem 15% 6rem 15%;
-   height: auto;
-   width: 100%; // z-index: 1;
- }
+ 
+footer {
+  padding: 2rem 15% 2rem 15%;
+  color: darken($primary, 20);
+  font-family: $code-font;
+  font-size: 1.2rem;
+  @include vendor-prefix(user-select, none);
+  h4 {
+    font-family: $code-font;
+  }
+}

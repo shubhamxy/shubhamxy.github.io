@@ -1,7 +1,6 @@
-<div class="post-title-section">
-  <h3 style=" font-family: 'Source Sans Pro',
-sans-serif">Posts <em>/</em></h3>
-  <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+<div class="post-title-section" style="background-image: url({{page.image}})">
+<h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+<div style="display: flex; justify-content: space-between"> 
   <ul class="tags">
     {% for tag in page.tags %}
       <li><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a></li>
@@ -9,7 +8,7 @@ sans-serif">Posts <em>/</em></h3>
       {% endunless %}
     {% endfor %}
   </ul>
-  <h3 class="reverse" style=" font-family: 'Source Sans Pro',
-sans-serif"><a href="{{ site.url}}">Back to posts</a> <em>/</em></h3>
+  <h3 style="reverse"><a href="{{ site.url}}">Back to posts</a> <em>/</em></h3>
+</div>
 </div>
 

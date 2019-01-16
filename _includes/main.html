@@ -1,22 +1,6 @@
-<div id="top">
-  <div class="top-child">
-    <div class="top-content">
-      {% if page.contentId %} {% capture top-content %}top/{{ page.contentId }}.html{% endcapture
-      %} {% else %} {% capture top-content %}top/{{ layout.id }}.html{% endcapture %} {% endif %}
-      {% include {{ top-content }} %}
-    </div>
-  </div>
-</div>
-
-
-<script type="text/javascript">
-  (function () {
-    var burger = document.querySelector('.burger-container'),
-      header = document.querySelector('.header');
-
-    burger.onclick = function () {
-      header.classList.toggle('menu-opened');
-
-    }
-  }());
-</script>
+{% if page.contentId %}
+{% capture top-content %}top/{{ page.contentId }}.html{% endcapture%}
+{% else %} 
+{% capture top-content %}top/{{ layout.id }}.html{% endcapture %} 
+{% endif %}
+{% include {{ top-content }} %}

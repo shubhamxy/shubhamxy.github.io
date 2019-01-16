@@ -1,5 +1,4 @@
 #top .tags {
-
   >li {
     background: transparent;
     color: $dark;
@@ -18,35 +17,15 @@
 }
 
 #post {
-
-  // #navmenu{display:none}
-  // #sidemenu{display:block}
-  .window {
-    height: 60vh;
-  }
-
-  article {
-    border: 1px $grey solid;
-    padding-top: 3rem;
-    margin-top: calc(-15vh) !important;
-    box-shadow: 3px 2px 5px rgba(88, 110, 117, 0.17);
-    background-color: #EAEAEA;
-  }
-
   time {
-    color: darken($white, 70);
+    color: darken($white, 100);
     display: block;
-    padding-top: 1rem;
+    font-size: 12px;
     text-align: right;
     text-transform: uppercase;
   }
 
   #base {
-    .content {
-      display: block;
-      height: auto;
-    }
-
     .l-break {
       display: block;
       margin: 0 0 4rem 0;
@@ -56,7 +35,6 @@
       opacity: 0.4;
       position: relative;
       text-shadow: none;
-      z-index: 2;
 
       img {
         display: none;
@@ -78,17 +56,10 @@
 }
 
 article {
-  // font-family: $ui-font;
   font-size: 1.3rem;
-  position: relative;
-  background: #EAEAEA;
   padding: 3rem 6rem 3rem 6rem;
-  -ms-word-wrap: break-word;
   word-wrap: break-word;
-  // letter-spacing: 0.2rem;
-  border: 2px solid #E2E2E2;
   line-height: 24px;
-
   h1 {
     font-size: 5rem;
     line-height: 3rem;
@@ -139,7 +110,6 @@ article {
 
   a:not(.btn) {
     color: $primary;
-    border-bottom: 0.1rem dotted $primary;
   }
 
   ul,
@@ -159,23 +129,13 @@ article {
   }
 }
 
-.demo {
-  margin-bottom: 5rem;
-}
-
 .post-title-section {
-  position: absolute;
-  width: 100%;
-  padding-top: 4rem;
-
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem;
   .section-title {
     letter-spacing: 0.4rem;
-
-    position: relative;
-    left: auto;
-    bottom: auto;
     font-size: 3.6rem;
-    -ms-word-wrap: break-word;
     word-wrap: break-word;
   }
 

@@ -7,7 +7,6 @@ pageId: post-list
 #theme: "url(/assets/images/backgrounds/posts.gif)"
 toptheme:
 ---
-
 {% for post in site.posts %}
 {% capture title %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% endcapture %}
 <article>

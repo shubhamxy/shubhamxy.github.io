@@ -4,9 +4,11 @@ author: Shubham Jain
 description: >
   This is my online home, Here I post my projects, code, blogs and anything else.
 url: https:/mzeroes.github.io
-logo: logo.png # Site logo
+# Site.logo
+logo: logo.png 
 home: home.png
 locale: en_US
+
 excerpt_separator: <!-- more -->
 
 assets:
@@ -40,19 +42,12 @@ google-analytics: UA-84199733-1
 disqus_shortname: "shubhamjain-in"
 comments: true
 share: false
+
 # Social Links
 email: s.shubjain@gmail.com
-linkedin: shubm
-#keybase: ishubham
 github: "mzeroes"
-# bitbucket: ishubham
-# stackoverflow:  6476326/shubham-jain
-twitter: "magnetic_zeros"
+twitter: "mzeroe5"
 messenger: always.awesom
-
-#Tips' links
-#btc:
-#paypal:
 
 # Gems plugins
 plugins:
@@ -66,7 +61,6 @@ exclude:
   [
     README.md,
     script,
-    _posts/archive,
     Gemfile,
     Gemfile.lock,
     _site,

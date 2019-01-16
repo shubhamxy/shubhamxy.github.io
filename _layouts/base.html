@@ -4,31 +4,21 @@ layout: compress
 <!DOCTYPE html>
 <html>
 {% include layout/head.html %}
-
 <body id="{{ layout.id }}" class="{{ page.pageId }}">
-  <main>
-    <div class="window">
-      {% include layout/sidebar.html %}
-      <div class="top-content">
-        {% include main.html %}
-      </div>
+  <main class="main-container">
+    <div class="header">
+       {% include layout/sidebar.html %}
+    </div>
+    <div id="top">
+      {% include main.html %}
     </div>
     <div id="base">
-      <div class="base-child">
-        <div class="base-content">
-          {{ content }}
-          <p id="quotes">
-          </p>
-          <footer>
-            <p>
-              <i class="fa fa-copyright" aria-hidden="true"></i>
-              {{ site.time | date: '%Y' }} {{ site.author }} | Some rights reserved.
-            </p>
-          </footer>
-        </div>
-      </div>
+      {{ content }}
     </div>
-
+    <footer>
+    <i class="fa fa-copyright" aria-hidden="true"></i>
+    {{ site.time | date: '%Y' }} {{ site.author }} | Some rights reserved.
+    </footer>
   </main>
   {% include layout/scripts.html %} {% if layout.scripts %} {% assign scripts = layout.scripts %}
   {% endif %} {% if page.scripts %} {% assign scripts = page.scripts %} {% endif %} {% if scripts

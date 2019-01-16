@@ -1,14 +1,12 @@
 input {
   outline: none;
-  position: absolute;
   height: 28px;
   color: $dark;
   font-size: 11px;
   font-family: $ui-font;
   letter-spacing: 0.15rem;
-  margin-top: 10px;
   // text-transform: uppercase;
-  z-index: 10;
+  z-index: 2;
   right: calc(12vw + 6rem);
   background: transparent;
 }

@@ -59,7 +59,7 @@ plugins:
 include: [_pages]
 exclude:
   [
-    _posts/archive
+    _posts/archive,
     README.md,
     script,
     Gemfile,

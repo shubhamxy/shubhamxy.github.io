@@ -1,9 +1,8 @@
 # Site
-title: mzeroes
+title: Shubham
 author: Shubham Jain
-description: >
-  This is my online home, Here I post my projects, code, blogs and anything else.
-url: https:/mzeroes.github.io
+description: 
+url: https://shubhamxy.me
 # Site.logo
 logo: logo.png 
 home: home.png
@@ -45,9 +44,9 @@ share: false
 
 # Social Links
 email: s.shubjain@gmail.com
-github: "mzeroes"
-twitter: "mzeroe5"
-messenger: always.awesom
+github: shubhamxy
+twitter: "shubham0x"
+linkedin: shubm
 
 # Gems plugins
 plugins:

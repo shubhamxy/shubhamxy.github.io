@@ -1,7 +1,0 @@
-#!/bin/bash
-# script for version control system
-git rev-list --count --first-parent HEAD
-git add .
-git status
-git commit 
-git push origin master

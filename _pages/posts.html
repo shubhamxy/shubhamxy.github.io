@@ -10,12 +10,12 @@ toptheme:
 {% for post in site.posts %}
 {% capture title %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% endcapture %}
 <article>
-  <h2>
-    <a href="{{ site.baseurl }}{{ post.url }}" class="post-title" title="{{ title | strip_html }}">
+    <div style="display: flex; justify-content: space-between">
+     <a href="{{ site.baseurl }}{{ post.url }}" class="post-title" title="{{ title | strip_html }}">
       <span>{{ title }}</span>
-    </a>
+      </a>
     <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
-  </h2>
+    </div>
   <span>{{ post.subject | strip_html | truncatewords: 50 }}</span>
   {% if post %}
   <p>

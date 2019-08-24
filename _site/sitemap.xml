@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2017-05-22/Hello-World</loc>
+<loc>https://shubhamxy.me/2017-05-22/Hello-World</loc>
 <lastmod>2017-05-22T00:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/404</loc>
+<loc>https://shubhamxy.me/404</loc>
 </url>
 <url>
-<loc>http://localhost:4000/index</loc>
+<loc>https://shubhamxy.me/index</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tags</loc>
+<loc>https://shubhamxy.me/search</loc>
 </url>
 <url>
-<loc>http://localhost:4000/search.html</loc>
-<lastmod>2019-10-29T22:50:39+05:30</lastmod>
+<loc>https://shubhamxy.me/tags</loc>
 </url>
 </urlset>

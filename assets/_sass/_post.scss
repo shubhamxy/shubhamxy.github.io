@@ -56,9 +56,14 @@
     }
   }
 }
-
+article:hover{
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16);
+}
 article {
-  background: #e9e9e9;
+  background: $grey;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+  transition: .15s ease-out;
+  
   font-size: 1.3rem;
   padding: 3rem 6rem 3rem 6rem;
   word-wrap: break-word;
@@ -95,7 +100,7 @@ article {
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 24px;
-    color: rgb(20, 19, 19) !important;
+    color: rgb(49, 49, 49);
     margin-bottom: 1.3em;
     letter-spacing: 1px;
   }
@@ -211,7 +216,6 @@ article {
 
 .footer-line {
   float: right;
-  margin-bottom: 5rem;
 }
 
 #share {
@@ -224,10 +228,11 @@ article {
 }
 
 .pager {
-  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
   left: 0;
   margin: 0rem;
-  right: auto;
   text-align: left;
   // width: 15r/em;
 
@@ -256,7 +261,7 @@ article {
     }
 
     &:hover {
-      background-color: $primary;
+      background-color: $overlay;
       color: $white !important;
     }
 

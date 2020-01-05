@@ -245,16 +245,34 @@
    padding-bottom: 2rem;
  }
  .header{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: $white;
+   z-index: 2;
    padding: 2rem 15% 0 15%;
+   border-bottom: 2px solid $grey;
  }
+
+ .title{
+   font-size: 3rem;
+ }
+
+ .title-container{
+  padding: 2rem 0 2rem 0;
+ }
+ 
  #top {
+   margin-top: 12rem;
    padding: 0 15% 0 15%;
  }
  #base {
    padding: 0 15% 0 15%;
    min-height: 60vh;
  }
- 
+.info{
+  font-size: 12px;
+}
 footer {
   padding: 2rem 15% 2rem 15%;
   color: darken($primary, 20);

@@ -9,7 +9,7 @@ toptheme:
 ---
 {% for post in site.posts %}
 {% capture title %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% endcapture %}
-<article>
+<article >
     <div style="display: flex; justify-content: space-between">
      <a href="{{ site.baseurl }}{{ post.url }}" class="post-title" title="{{ title | strip_html }}">
       <span>{{ title }}</span>
@@ -20,7 +20,7 @@ toptheme:
   {% if post %}
   <p>
     {{ post.excerpt | strip_html }}
-    <a href="{{ site.baseurl }}{{ post.url }}" title="Read More">&nbsp;→ Read More</a>
+    <a href="{{ site.baseurl }}{{ post.url }}" title="Read More">&nbsp;Read More→</a>
   </p>
   {% endif %}
   <ul class="tags">

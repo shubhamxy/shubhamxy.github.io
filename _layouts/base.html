@@ -15,11 +15,15 @@ layout: compress
     <div id="base">
       {{ content }}
     </div>
-    <footer>
-    <i class="fa fa-copyright" aria-hidden="true"></i>
-    {{ site.time | date: '%Y' }} {{ site.author }} | Some rights reserved.
-    </footer>
   </main>
+      <footer>
+    <p>
+    <i class="fa fa-copyright" aria-hidden="true"></i> {{ site.time | date: '%Y' }} {{ site.author }} | Some rights reserved. </p>
+    <p>
+
+    {% comment %} Checkout <i class="fa fa-code" aria-hidden="true"></i> on <a target="_blank" href="https://github.com/{{site.github}}/{{site.github}}.github.io"> Github </a>
+    </p> {% endcomment %}
+    </footer>
   {% include layout/scripts.html %} {% if layout.scripts %} {% assign scripts = layout.scripts %}
   {% endif %} {% if page.scripts %} {% assign scripts = page.scripts %} {% endif %} {% if scripts
   %} {% for script in layout.scripts %}

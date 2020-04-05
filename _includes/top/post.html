@@ -1,14 +1,13 @@
-<div class="post-title-section" style="background-image: url({{page.image}})">
-<h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-<div style="display: flex; justify-content: space-between"> 
-  <ul class="tags" style="padding: 0">
-    {% for tag in page.tags %}
-      <li><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a></li>
-      {% unless forloop.last %}
-      {% endunless %}
-    {% endfor %}
-  </ul>
-  <h3 style="reverse"><a href="{{ site.url}}">Back</a> <em>/</em></h3>
+<div class="post-title-section">
+    <h1 class="section-title">{{ page.title | markdownify | remove: "
+        <p>" | remove: "</p>" }}</h1>
+    <img src="{{page.image}}" />
+    <div style="display: flex; justify-content: space-between">
+        <ul class="tags" style="padding: 0">
+            {% for tag in page.tags %}
+            <li><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a></li>
+            {% unless forloop.last %} {% endunless %} {% endfor %}
+        </ul>
+        <h3 style="reverse"><a href="{{ site.url}}">Back</a> <em>/</em></h3>
+    </div>
 </div>
-</div>
-

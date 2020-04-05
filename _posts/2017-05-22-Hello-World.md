@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "Hello, World!"
-excerpt: "Welcome to my blog!"
+subject: "  "
+excerpt: "Hello, world!"
+image: 
+share: true
 tags:
   - first post
   - hello world
 ---
 
-### A Sanity test post. 
+## Hi

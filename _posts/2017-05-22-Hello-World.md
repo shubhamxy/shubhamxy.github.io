@@ -2,7 +2,7 @@
 layout: post
 title: "Hello, World!"
 subject: "  "
-excerpt: "Hello, world!"
+excerpt: ""
 image: 
 share: true
 tags:
@@ -10,4 +10,4 @@ tags:
   - hello world
 ---
 
-## Hi
+![alt text](/assets/images/posts/hello.jpg "Coding ritual")

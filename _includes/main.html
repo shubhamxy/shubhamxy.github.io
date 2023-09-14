@@ -1,6 +1,0 @@
-{% if page.contentId %}
-{% capture top-content %}top/{{ page.contentId }}.html{% endcapture%}
-{% else %} 
-{% capture top-content %}top/{{ layout.id }}.html{% endcapture %} 
-{% endif %}
-{% include {{ top-content }} %}

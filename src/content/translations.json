@@ -1,0 +1,252 @@
+{
+    "title": "Hi, I’m Shubham",
+    "description": "",
+    "github": "https://github.com/shubhamxy",
+    "coverImageAlt": "Cover Image Alt Text",
+    "favicon": "favicon.ico",
+    "introduction": "",
+    "summary": "I’m a software engineer, I'm interested in Full stack development and cybersecurity. Have almost 4years of work experience in building products. Currently looking for my next gig.",
+    "calloutText": "",
+    "calloutTextLink": "https://linkedin.com/in/shubm",
+    "press": [{}],
+    "myStoryTitle": "My Story",
+    "myStorySubtitle": "🪄 where it all began...",
+    "myStoryContent": [
+        "I got my first taste of coding back in high school when I didn't even have a computer at home. Instead, I'd head to the school computer lab during lunch breaks and free periods to experiment with basic C++. My crowning achievement at the time was building a 'Who Wants to Be a Millionaire' game for a school project. It might not have been the most advanced game, but it was a start.",
+        "Fast forward to my 10th grade when I attended a hacking workshop at DTU. That's when the cybersecurity bug bit me, and I knew I was in for an exciting ride in the world of computer science. It set the stage for my next step, enrolling in a Bachelor's program in Information Technology at MAIT, New Delhi.",
+        "During my college years, I landed an internship at Grappus, and that's where the real learning began. From intern to Full Stack Developer, I dabbled in a variety of projects and wore many different hats. The experience was a rollercoaster, but it also gave me a lot of valuable skills and some awesome friendships.",
+        "Now, I'm all in on my side project, Reisetra. And as for what's next, I'm on the lookout for my next big adventure in the tech world. I'm excited to see where the road takes me and to keep learning and growing in this ever-evolving field."
+    ],
+    "myStoryConclusion": "",
+    "twitterHandle": "@oh_shubham",
+    "restOfTheInternet": "on the rest of the internet.",
+    "viewAllProjects": "[ View All Projects ]",
+    "workTitle": "Work Experience",
+    "workSubTitle": "Work Experience",
+    "skillsTitle": "Skills",
+    "skillsSubtitle": "",
+    "skills": {
+        "languages": [
+            [
+                "Java",
+                1
+            ],
+            [
+                "Javascript",
+                1
+            ]
+        ],
+        "frameworks/libraries": [
+            [
+                "Spring Boot, Hibernate",
+                1
+            ],
+            [
+                "NodeJS, ExpressJS, NestJS",
+                1
+            ],
+            [
+                "ReactJS, NextJS, Redux",
+                1
+            ],
+            [
+                "MongoDB",
+                1
+            ],
+            [
+                "PostgreSQL",
+                1
+            ]
+        ],
+        "concepts": [
+            [
+                "Linux, CI/CD with Docker & Jenkins",
+                1
+            ],
+            [
+                "AWS (EC2, ECS, RDS, S3, CloudFront, Elastic Cache etc.)",
+                1
+            ]
+        ]
+    },
+    "work": [
+        {
+            "company": "GRAPPUS",
+            "workedFrom": "Jan 2020",
+            "workedTo": "Oct 2023",
+            "designation": "Full Stack Developer",
+            "description": "",
+            "projects": [
+                {
+                    "name": "AIRLINQ",
+                    "projectUrl": "https://www.airlinq.com/air-control/",
+                    "workedFrom": "Aug 22",
+                    "workedTo": "Present",
+                    "imageUrl": "/assets/air-control.png",
+                    "description": "IOT connectivity management system",
+                    "tag": "",
+                    "details": [
+                        "• Lead development for América Móvil’s Air:Control deployment, managing the new feature development and bugfixes.",
+                        "• Refactored large component of the system and reduced performance related bugs by over 50%.",
+                        "• Architected the product catalog, comarch APIs, and external API adapter module for the system.",
+                        "• Implemented penalty exemptions, discount, and value-added service modules, optimizing billing processes and enhancing customer satisfaction.",
+                        "• Utilized Spring, MySQL, Hibernate, NodeJS, and AWS to build a robust and reliable backend."
+                    ]
+                },
+                {
+                    "name": "SITA",
+                    "projectUrl": "http://sita.in",
+                    "imageUrl": "/assets/sita.png",
+                    "workedFrom": "Jul 21",
+                    "workedTo": "Aug 22",
+                    "description": "Destination management system",
+                    "details": [
+                        "• Spearheaded the development of a cutting-edge destination management system, overseeing the design and implementation of air, rail, and roadways costing modules.",
+                        "• Engineered a query versioning and reuse module, enabling efficient query optimization and seamless integration with other systems.",
+                        "• Leveraged Spring Boot, PostgreSQL, Hibernate, NodeJS (AWS Lambda), Redis, Elasticsearch, and AWS to deliver a high-performing and scalable solution."
+                    ]
+                },
+                {
+                    "name": "Ateam",
+                    "projectUrl": "http://ateam.co",
+                    "imageUrl": "/assets/ateam.gif",
+                    "workedFrom": "Jan 21",
+                    "workedTo": "Jun 21",
+                    "description": "Fitness-focused dating app",
+                    "details": [
+                        "• Led the transformation of the backend from monolith into a microservices architecture, ensuring high scalability, maintainability, and improved development velocity.",
+                        "• Innovated the recommendation service by implementing advanced collaborative filtering algorithms, delivering personalized and engaging user feeds.",
+                        "• Streamlined infrastructure and reduced costs by over 80% through the migration of data processing tasks from ECS to AWS Lambdas.",
+                        "• Leveraged ExpressJS, MongoDB, Socket.io, Redis, RabbitMQ, Jenkins, and AWS to build a resilient and scalable microservices ecosystem."
+                    ]
+                },
+                {
+                    "name": "Edmissions.com",
+                    "projectUrl": "http://edmissions.com",
+                    "imageUrl": "/assets/zalumni.png",
+                    "workedFrom": "Aug 20",
+                    "workedTo": "Jan 21",
+                    "description": "College application platform",
+                    "details": [
+                        "• Developed backend API’s for user queries, alumni directories, and experiences sections.",
+                        "• Used KoaJS and MongoDB to deliver high performance and reliable backend solution."
+                    ]
+                },
+                {
+                    "name": "Asteride",
+                    "projectUrl": "https://asteride.co",
+                    "imageUrl": "/assets/asteride.png",
+                    "workedFrom": "Jun 20",
+                    "workedTo": "Aug 20",
+                    "description": "Ride Planner & Social Networking app",
+                    "details": [
+                        "• Designed entire system with the team.",
+                        "• Developed backend API’s for user queries, alumni directories, and experiences sections.",
+                        "• Used KoaJS and MongoDB to deliver high performance and reliable backend solution."
+                    ]
+                },
+                {
+                    "name": "Street",
+                    "projectUrl": "https://apps.apple.com/us/app/street-app/id1496917759",
+                    "workedFrom": "Apr 20",
+                    "imageUrl": "/assets/street.png",
+                    "workedTo": "Jun 20",
+                    "description": "App for the street.co.uk real estate agents",
+                    "details": [
+                        "• Developed real estate agent app with property management, appointment booking, and navigation using React Native and Mapbox APIs.",
+                        "• Used React Native and Mapbox."
+                    ]
+                },
+                {
+                    "name": "Karza.in",
+                    "imageUrl": "/assets/karza.png",
+                    "projectUrl": "https://karza.in/",
+                    "workedFrom": "Feb 20",
+                    "workedTo": "Apr 20",
+                    "description": "Landing Page and CMS",
+                    "details": [
+                        "Developed a visually appealing landing page and a custom CMS, enabling efficient content management and enhancing the overall user experience."
+                    ]
+                },
+                {
+                    "name": "WorkLife",
+                    "imageUrl": "/assets/worklife.png",
+                    "projectUrl": "https://play.google.com/store/apps/details?id=com.worklife.worklifeapp",
+                    "workedFrom": "Jan 20",
+                    "workedTo": "Apr 20",
+                    "description": "CMS",
+                    "details": [
+                        "Designed and developed a robust custom CMS for the WorkLife app, empowering administrators to manage content, users, authors, and other key aspects of the platform."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "REDCARPETUP",
+            "workedFrom": "Jan 2020",
+            "workedTo": "Oct 2023",
+            "designation": "Full Stack Developer Internship",
+            "description": "",
+            "projects": [
+                {
+                    "name": "REDCARPET OMS",
+                    "projectUrl": "https://www.redcarpetup.com",
+                    "workedFrom": "Aug 22",
+                    "workedTo": "Present",
+                    "imageUrl": "/assets/redcarpetup.png",
+                    "description": "",
+                    "tag": "",
+                    "details": [
+                        "• Developed an efficient operations management system (OMS) with seamless frontend integration.",
+                        "• Leveraged Flask, PostgreSQL, and Airflow for optimal performance and reliability."
+                    ]
+                }
+            ]
+        }
+    ],
+    "projectsTitle": "Projects",
+    "projectsSubtitle": "",
+    "projects": [
+        {
+            "name": "Reisetra Store",
+            "projectUrl": "https://www.reisetra.com/",
+            "sourceCode": "https://github.com/shubhamxy/reisetra",
+            "tag": "Next.JS",
+            "image": "/assets/reisetra.png",
+            "workedFrom": "Aug 22",
+            "workedTo": "Present",
+            "description": "",
+            "details": [
+                "• Developed and launched a fully functional e-commerce platform for Reisetra, enabling seamless online shopping experiences for customers. It consists of a storefront, cms and an admin panel to manage the store.",
+                "• Leveraged NextJS for microfrontends (storefront, cms, admin, auth), NestJS, PrismaORM, Postgres, Redis, and AWS to build a resilient and scalable system."
+            ]
+        },
+        {
+            "name": "FreeBerry",
+            "projectUrl": "https://freeberry.vercel.app/",
+            "sourceCode": "https://github.com/shubhamxy/freeberry",
+            "image": "/assets/freeberry.png",
+            "description": "",
+            "tag": "ReactJS",
+            "workedFrom": "Date Range",
+            "workedTo": "Date Range",
+            "details": [
+                "• A Move the Block: Slide Puzzle Rush Game.",
+                "• Won Grappus's internal game dev hackathon and now part of the Unberry project within the company."
+            ]
+        },
+        {
+            "name": "Search and Rescue Simulation",
+            "projectUrl": "https://shubhamxy.github.io/simulation/",
+            "sourceCode": "https://github.com/shubhamxy/sar",
+            "image": "/assets/sar.png",
+            "tag": "ReactJS",
+            "workedFrom": "Date Range",
+            "workedTo": "Date Range",
+            "description": "",
+            "details": [
+                "• A search and rescue simulation application to effectively determine the best path for rescuing passengers from shipwrecks."
+            ]
+        }
+    ]
+}

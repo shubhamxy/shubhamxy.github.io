@@ -5,19 +5,19 @@
     "coverImageAlt": "Cover Image Alt Text",
     "favicon": "favicon.ico",
     "introduction": "",
-    "summary": "I’m a software engineer, I'm interested in Full stack development and cybersecurity. Have almost 4years of work experience in building products. Currently looking for my next gig.",
+    "summary": "I’m a software engineer, I'm interested in Full stack development and cybersecurity. Have almost 4years of work experience in building products.",
     "calloutText": "",
     "calloutTextLink": "https://linkedin.com/in/shubm",
-    "press": [{}],
+    "press": [],
     "myStoryTitle": "My Story",
     "myStorySubtitle": "🪄 where it all began...",
     "myStoryContent": [
-        "I got my first taste of coding back in high school when I didn't even have a computer at home. Instead, I'd head to the school computer lab during lunch breaks and free periods to experiment with basic C++. My crowning achievement at the time was building a 'Who Wants to Be a Millionaire' game for a school project. It might not have been the most advanced game, but it was a start.",
+        "I got my first taste of coding back in high school when I didn't even have a computer at home. Instead, I used to head to the school computer lab during lunch breaks and free time to experiment with basic C++. My crowning achievement at the time was building a 'Who Wants to Be a Millionaire' game for a school project. It might not have been the most advanced game, but it was a start.",
         "Fast forward to my 10th grade when I attended a hacking workshop at DTU. That's when the cybersecurity bug bit me, and I knew I was in for an exciting ride in the world of computer science. It set the stage for my next step, enrolling in a Bachelor's program in Information Technology at MAIT, New Delhi.",
         "During my college years, I landed an internship at Grappus, and that's where the real learning began. From intern to Full Stack Developer, I dabbled in a variety of projects and wore many different hats. The experience was a rollercoaster, but it also gave me a lot of valuable skills and some awesome friendships.",
-        "Now, I'm all in on my side project, Reisetra. And as for what's next, I'm on the lookout for my next big adventure in the tech world. I'm excited to see where the road takes me and to keep learning and growing in this ever-evolving field."
+        ""
     ],
-    "myStoryConclusion": "",
+    "myStoryConclusion": "Currently, I'm working as Software Engineer at Deusche Telekom Digital Labs and I'm all in on my side project, Reisetra. And as for what's next, I'm on the lookout for my next big adventure in the tech world. I'm excited to see where the road takes me and to keep learning and growing in this ever-evolving field.",
     "twitterHandle": "@oh_shubham",
     "restOfTheInternet": "on the rest of the internet.",
     "viewAllProjects": "[ View All Projects ]",
@@ -71,7 +71,29 @@
     },
     "work": [
         {
-            "company": "GRAPPUS",
+            "company": "Deutsche Telekom Digital Labs, Gurugram",
+            "workedFrom": "Nov 2023",
+            "workedTo": "Current",
+            "designation": "Software Engineer",
+            "description": "",
+            "projects": [
+                {
+                    "name": "CMS",
+                    "projectUrl": "https://dtdl.in/our-work/",
+                    "workedFrom": "Nov 2023",
+                    "workedTo": "Current",
+                    "imageUrl": "/assets/dtdl.jpeg",
+                    "description": "",
+                    "tag": "",
+                    "details": [
+                        "• Working with central capabilities team to build reliable core services such as translation, configuration, campaign, analytics, and asset management used by multitude of services.",
+                        "• Java, Spring Boot, Hibernate, AWS, Microservices."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "GRAPPUS, Gurugram",
             "workedFrom": "Jan 2020",
             "workedTo": "Oct 2023",
             "designation": "Full Stack Developer",
@@ -182,7 +204,7 @@
             ]
         },
         {
-            "company": "REDCARPETUP",
+            "company": "REDCARPETUP, Gurugram",
             "workedFrom": "Jan 2020",
             "workedTo": "Oct 2023",
             "designation": "Full Stack Developer Internship",
@@ -228,8 +250,8 @@
             "image": "/assets/freeberry.png",
             "description": "",
             "tag": "ReactJS",
-            "workedFrom": "Date Range",
-            "workedTo": "Date Range",
+            "workedFrom": "",
+            "workedTo": "",
             "details": [
                 "• A Move the Block: Slide Puzzle Rush Game.",
                 "• Won Grappus's internal game dev hackathon and now part of the Unberry project within the company."
@@ -241,8 +263,8 @@
             "sourceCode": "https://github.com/shubhamxy/sar",
             "image": "/assets/sar.png",
             "tag": "ReactJS",
-            "workedFrom": "Date Range",
-            "workedTo": "Date Range",
+            "workedFrom": "",
+            "workedTo": "",
             "description": "",
             "details": [
                 "• A search and rescue simulation application to effectively determine the best path for rescuing passengers from shipwrecks."

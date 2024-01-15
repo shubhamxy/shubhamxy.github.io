@@ -14,6 +14,7 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 interface ProjectCardProps {
   title: string;
+  subtitle: string;
   description: string;
   details: string[];
   imageUrl: string;
@@ -24,6 +25,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
+  subtitle,
   description,
   details,
   imageUrl,
@@ -102,6 +104,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <Heading as="h4" size="md" mb={2}>
           {title}
         </Heading>
+        <Text fontSize="sm" color="gray.500" mt={-2} mb="2px">
+          {subtitle}
+        </Text>
+
         <Text fontSize="sm" color={descriptionTextColor} mb={3}>
           {description}
         </Text>

@@ -79,6 +79,7 @@
             "projects": [
                 {
                     "name": "CMS",
+                    "subtitle": "",
                     "projectUrl": "https://dtdl.in/our-work/",
                     "workedFrom": "Nov 2023",
                     "workedTo": "Current",
@@ -101,6 +102,7 @@
             "projects": [
                 {
                     "name": "AIRLINQ",
+                    "subtitle": "",
                     "projectUrl": "https://www.airlinq.com/air-control/",
                     "workedFrom": "Aug 22",
                     "workedTo": "Present",
@@ -117,6 +119,7 @@
                 },
                 {
                     "name": "SITA",
+                    "subtitle": "",
                     "projectUrl": "http://sita.in",
                     "imageUrl": "/assets/sita.png",
                     "workedFrom": "Jul 21",
@@ -130,6 +133,7 @@
                 },
                 {
                     "name": "Ateam",
+                    "subtitle": "",
                     "projectUrl": "http://ateam.co",
                     "imageUrl": "/assets/ateam.gif",
                     "workedFrom": "Jan 21",
@@ -144,6 +148,7 @@
                 },
                 {
                     "name": "Edmissions.com",
+                    "subtitle": "",
                     "projectUrl": "http://edmissions.com",
                     "imageUrl": "/assets/zalumni.png",
                     "workedFrom": "Aug 20",
@@ -156,6 +161,7 @@
                 },
                 {
                     "name": "Asteride",
+                    "subtitle": "",
                     "projectUrl": "https://asteride.co",
                     "imageUrl": "/assets/asteride.png",
                     "workedFrom": "Jun 20",
@@ -169,6 +175,7 @@
                 },
                 {
                     "name": "Street",
+                    "subtitle": "",
                     "projectUrl": "https://apps.apple.com/us/app/street-app/id1496917759",
                     "workedFrom": "Apr 20",
                     "imageUrl": "/assets/street.png",
@@ -181,6 +188,7 @@
                 },
                 {
                     "name": "Karza.in",
+                    "subtitle": "",
                     "imageUrl": "/assets/karza.png",
                     "projectUrl": "https://karza.in/",
                     "workedFrom": "Feb 20",
@@ -192,6 +200,7 @@
                 },
                 {
                     "name": "WorkLife",
+                    "subtitle": "",
                     "imageUrl": "/assets/worklife.png",
                     "projectUrl": "https://play.google.com/store/apps/details?id=com.worklife.worklifeapp",
                     "workedFrom": "Jan 20",
@@ -212,6 +221,7 @@
             "projects": [
                 {
                     "name": "REDCARPET OMS",
+                    "subtitle": "",
                     "projectUrl": "https://www.redcarpetup.com",
                     "workedFrom": "Aug 22",
                     "workedTo": "Present",
@@ -231,6 +241,7 @@
     "projects": [
         {
             "name": "Reisetra Store",
+            "subtitle": "",
             "projectUrl": "https://www.reisetra.com/",
             "sourceCode": "https://github.com/shubhamxy/reisetra",
             "tag": "Next.JS",
@@ -245,6 +256,7 @@
         },
         {
             "name": "FreeBerry",
+            "subtitle": "",
             "projectUrl": "https://freeberry.vercel.app/",
             "sourceCode": "https://github.com/shubhamxy/freeberry",
             "image": "/assets/freeberry.png",
@@ -259,6 +271,7 @@
         },
         {
             "name": "Search and Rescue Simulation",
+            "subtitle": "",
             "projectUrl": "https://shubhamxy.github.io/simulation/",
             "sourceCode": "https://github.com/shubhamxy/sar",
             "image": "/assets/sar.png",

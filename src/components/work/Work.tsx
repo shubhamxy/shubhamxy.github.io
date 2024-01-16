@@ -43,6 +43,7 @@ const Projects = () => {
               <Box flex="1" mb={6} mr={{ base: 0, md: 6 }}>
                 <ProjectCard
                   title={item.name}
+                  subtitle={item.subtitle}
                   description={item.description}
                   details={item.details}
                   imageUrl={item.imageUrl as string}

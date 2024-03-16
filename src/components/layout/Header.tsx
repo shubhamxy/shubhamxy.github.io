@@ -13,6 +13,7 @@ import React, { useEffect, useState } from "react";
 import { FiMail, FiMoon, FiSun, FiTwitter } from "react-icons/fi";
 import UpdateBanner from "./UpdateBanner";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import t from "@/content/translations.json";
 
 const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -28,29 +29,15 @@ const Header = () => {
     toggleColorMode();
   };
 
-  // // Set initial background image based on initial colorMode
-  // useEffect(() => {
-  //   if (colorMode === "light") {
-  //     document.body.style.backgroundImage =
-  //       "url('/assets/background-light.png')";
-  //   } else {
-  //     document.body.style.backgroundImage =
-  //       "url('/assets/background-dark.png')";
-  //   }
-  // }, []);
-
   const headerBg =
     colorMode === "light"
-      ? "rgba(255, 255, 255, 0.8)" // Semi-transparent white
-      : "rgba(9, 14, 17, 0.8)"; // Semi-transparent dark
+      ? "rgba(255, 255, 255, 0.4)" // Semi-transparent white
+      : "rgba(9, 14, 17, 0.4)"; // Semi-transparent dark
 
   const headerStyles = {
     bg: headerBg,
     color: colorMode === "light" ? "black" : "white",
-    borderRadius: "10px",
-    _hover: {
-      bg: colorMode === "light" ? "#ffffff30" : "#020301",
-    },
+    backdropFilter: "blur(16px)",
   };
 
   return (
@@ -60,33 +47,33 @@ const Header = () => {
       fontSize="sm"
       fontWeight="bold"
       position="sticky"
-      top={0}
-      blur='20px'
+      top={4}
+      blur='16px'
       filter='auto'
       zIndex="sticky"
+      borderRadius="34px"
       {...headerStyles}
     >
       <Flex
         as="header"
         align="center"
         p={4}
-     
-        bg={headerStyles.bg}
+        height={"48px"}
         boxShadow="md"
-        borderRadius="10px"
+        borderRadius="34px"
       >
-        <Flex direction="row" alignItems="center">
+        <Flex direction="row" pl={4} alignItems="center">
           {/* Your logo or brand */}
           <Link
             as="a"
             href="/"
-            fontSize={{ base: "lg", md: "xl" }} // Define font sizes for different screen sizes
+            fontSize={{ base: "sm", md: "md" }} // Define font sizes for different screen sizes
             fontWeight="bold"
             _hover={{
               textDecoration: "none",
             }}
           >
-            Shubham Jain ✦
+            {t.name} 
           </Link>
         </Flex>
         <Spacer />
@@ -94,10 +81,10 @@ const Header = () => {
           {/* Your navigation links */}
           <Flex alignItems="center">
             <Link
-              href="https://www.twitter.com/oh_shubham"
+              href={`https://www.twitter.com/${t.twitterHandle}`}
               mr={2}
               fontWeight="bold"
-              _hover={{ color: "teal.500", transform: "translateY(-2px)" }}
+              _hover={{ color: "blue.500", transform: "translateY(-2px)" }}
               display="flex"
               alignItems="center"
               target="_blank"
@@ -106,9 +93,9 @@ const Header = () => {
             </Link>
             <Link
               mr={2}
-              href="https://linkedin.com/in/shubm"
+              href={`https://linkedin.com/in/${t.linkedinHandle}`}
               fontWeight="bold"
-              _hover={{ color: "teal.500", transform: "translateY(-2px)" }}
+              _hover={{ color: "blue.500", transform: "translateY(-2px)" }}
               display="flex"
               alignItems="center"
               target="_blank"
@@ -116,9 +103,9 @@ const Header = () => {
               <FaLinkedin style={{ marginRight: "6px" }} /> LinkedIn
             </Link>
             <Link
-              href="https://github.com/shubhamxy"
+              href={`${t.github}`}
               fontWeight="bold"
-              _hover={{ color: "teal.500", transform: "translateY(-2px)" }}
+              _hover={{ color: "blue.500", transform: "translateY(-2px)" }}
               display="flex"
               alignItems="center"
               target="_blank"

@@ -27,17 +27,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={extendedTheme}>
       <div className="container">
-        {/* <UpdateBanner /> */}
         <Header />
         <Component {...pageProps} />
-        {/* <style global jsx>{`
-          body {
-            background-image: url("${colorMode === "light"
-              ? "/assets/background-light.png"
-              : "/assets/background-dark.png"}");
-          }
-        `}</style> */}
-
         <HorizontalLine />
         <Footer />
       </div>

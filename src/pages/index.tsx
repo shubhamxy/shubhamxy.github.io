@@ -20,7 +20,7 @@ export default function Home() {
         <meta property="og:image" content="/assets/cover-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:url" content="URL_TO_YOUR_WEBSITE" />
+        <meta property="og:url" content={t.webUrl} />
         <link rel="icon" href={`/${t.favicon}`} />
       </Head>
       <ProfileSection />

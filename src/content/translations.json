@@ -1,7 +1,10 @@
 {
+    "name": "Shubham Jain",
+    "webUrl": "https://shubhamxy.github.io",
     "title": "Hi, I’m Shubham",
     "description": "",
     "github": "https://github.com/shubhamxy",
+    "linkedinHandle": "shubm",
     "coverImageAlt": "Cover Image Alt Text",
     "favicon": "favicon.ico",
     "introduction": "",
@@ -42,11 +45,11 @@
                 1
             ],
             [
-                "NodeJS, ExpressJS, NestJS",
+                "ReactJS, React Native, NextJS, Redux and Other JS toolings",
                 1
             ],
             [
-                "ReactJS, NextJS, Redux",
+                "NodeJS, ExpressJS, NestJS",
                 1
             ],
             [
@@ -71,14 +74,14 @@
     },
     "work": [
         {
-            "company": "Deutsche Telekom Digital Labs, Gurugram",
+            "company": "Deutsche Telekom, Gurugram",
             "workedFrom": "Nov 2023",
             "workedTo": "Current",
             "designation": "Software Engineer",
             "description": "",
             "projects": [
                 {
-                    "name": "CMS",
+                    "name": "Central Capabilities Team",
                     "subtitle": "",
                     "projectUrl": "https://dtdl.in/our-work/",
                     "workedFrom": "Nov 2023",
@@ -87,7 +90,7 @@
                     "description": "",
                     "tag": "",
                     "details": [
-                        "• Working with central capabilities team to build reliable core services such as translation, configuration, campaign, analytics, and asset management used by multitude of services.",
+                        "• Working with central capabilities team to build reliable core services such as translation, configuration, campaign, analytics, and asset management used by multitude of teams & services across the company.",
                         "• Java, Spring Boot, Hibernate, AWS, Microservices."
                     ]
                 }
@@ -155,8 +158,8 @@
                     "workedTo": "Jan 21",
                     "description": "College application platform",
                     "details": [
-                        "• Developed backend API’s for user queries, alumni directories, and experiences sections.",
-                        "• Used KoaJS and MongoDB to deliver high performance and reliable backend solution."
+                        "• Developed user queries, alumni, and experiences sections of the product.",
+                        "• Used NextJS and Other JS Tooling to deliver high performance and reliable frontend solution."
                     ]
                 },
                 {
@@ -168,9 +171,8 @@
                     "workedTo": "Aug 20",
                     "description": "Ride Planner & Social Networking app",
                     "details": [
-                        "• Designed entire system with the team.",
-                        "• Developed backend API’s for user queries, alumni directories, and experiences sections.",
-                        "• Used KoaJS and MongoDB to deliver high performance and reliable backend solution."
+                        "• Designed and developed the react native app.",
+                        "• Used React Native, Redux and Other JS tooling to deliver the app."
                     ]
                 },
                 {

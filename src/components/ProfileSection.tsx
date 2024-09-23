@@ -116,7 +116,7 @@ const ProfileSection = () => {
         <Text fontSize="sm" color="gray.500" mt="5px" mb="2px">
           {t.description}
         </Text>
-        <Text fontSize="xl">
+        <Text fontSize="lg">
           {t.introduction}
         </Text>
 
@@ -125,9 +125,6 @@ const ProfileSection = () => {
           fontSize="md"
           color={colorMode === "light" ? "#6B46C1" : "#A78BFA"}
         >
-          <Box as="span" fontWeight="bold">
-            TL;DR:
-          </Box>{" "}
           {t.summary}
         </Text>
 

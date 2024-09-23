@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");:root{--background-image-light:url(/assets/background-light.png);--background-image-dark:url(/assets/background-dark.png)}body{margin:0;padding:0;font-family:sans-serif;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}.project-card{transition:transform .3s ease}.project-card:hover{transform:translateY(-5px)}body.background-image{background-image:var(
+    --background-image-light
+  );background-size:cover;background-repeat:no-repeat;background-attachment:fixed}body[data-color-mode=dark].background-image{background-image:var(
+    --background-image-dark
+  )}.container{max-width:750px;margin:0 auto;padding:0 16px}.main{width:100vw;min-height:100vh;position:fixed;display:flex;justify-content:center;padding:160px 24px;pointer-events:none}

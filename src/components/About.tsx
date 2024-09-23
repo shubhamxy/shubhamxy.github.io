@@ -14,7 +14,7 @@ import { FaJava, FaStar } from "react-icons/fa";
 import { FaJs, FaReact, FaNode, FaDatabase, FaAws, FaDocker, FaLinux } from "react-icons/fa";
 import { SiSpring, SiHibernate, SiPostgresql, SiMongodb, SiJenkins, SiNestjs, SiRedux } from "react-icons/si";
 
-const skillIcons = {
+const skillIcons: any = {
   java: FaJava,
   javascript: FaJs,
   "spring boot, hibernate": SiSpring,
@@ -75,7 +75,7 @@ const SkillsSection = () => {
                   alignItems="center"
                   borderRadius="md"
                 >
-                  <Icon as={skillIcons[i[0].toLowerCase()]} mr={2} />
+                  <Icon as={skillIcons[typeof i[0] === 'string' ? i[0].toLowerCase() : '']} mr={2} />
                   <Text>{i[0]}</Text>
                 </Box>
               ))}
